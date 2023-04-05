@@ -9,5 +9,10 @@ Development of the menu.
 
 Creation of the different sections on de body and the footer.
 
+## Week 03
+Modification of the .html document.
+
+Development of the .css style of the page.
+
 ## Authors
 - Florencia Metelico
