@@ -14,5 +14,10 @@ Modification of the .html document.
 
 Development of the .css style of the page.
 
+## Week 04
+New .css style of the page, using Flexbox.
+
+Development of the mobile layout, tablet layout and desktop layout.
+
 ## Authors
 - Florencia Metelico
