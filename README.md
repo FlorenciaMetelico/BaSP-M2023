@@ -19,5 +19,11 @@ New .css style of the page, using Flexbox.
 
 Development of the mobile layout, tablet layout and desktop layout.
 
+## Week 05
+Modification of the .css and the .html of the Megarocket page.
+
+Uploaded the finished exercises of Javascript.
+
+
 ## Authors
 - Florencia Metelico
