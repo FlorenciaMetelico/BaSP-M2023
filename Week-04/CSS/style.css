@@ -105,6 +105,7 @@
     flex-direction: column;
     gap: 20px;
     padding: 10px;
+    align-items: center;
   }
   .welcome h2 {
     font-family: "Mulish", sans-serif;
@@ -131,7 +132,8 @@
     display: flex;
     flex-direction: column;
     max-width: 100%;
-    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
   }
   .section-icon {
     width: 107px;
@@ -157,6 +159,7 @@
     flex-direction: column;
     align-items: center;
     gap: 15px;
+  
   }
   .functions p {
     display: none;
@@ -178,16 +181,16 @@
     display: flex;
     flex-direction: column;
     color: #fff;
+    align-items: center;
   }
   .form h2 {
     text-transform: uppercase;
     font-size: 24px;
   }
-  .form input,
-  select,
-  option {
+  .form input, select, option {
     width: 312px;
     height: 33px;
+    margin: 10px;
   }
   input::placeholder,
   textarea::placeholder,
@@ -203,6 +206,12 @@
   }
   form {
     margin-top: 60px;
+  }
+  .form-left{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
   }
   .form-right {
     display: flex;
@@ -297,7 +306,7 @@
   
   /* START TABLET VERSION */
   
-  @media (min-width: 601px) {
+  @media (min-width: 600px) {
     /*HEADER*/
     .main-header {
       height: 169px;
@@ -387,8 +396,7 @@
   
   /* START DESKTOP VERSION */
   @media (min-width: 1024px) {
-    main,
-    .main-header, footer {
+    main, header, footer {
       margin-left: 30%;
       width: 70%;
     }
@@ -397,7 +405,8 @@
       height: 159px;
     }
     .main-header {
-      padding: 0px;
+      padding: 0px; 
+      margin-left: 30%;
       flex-direction: row-reverse;
     }
     .main-header > img {
