@@ -1,11 +1,21 @@
 footer {
+	padding-top: 10px;
 	display: flex;
 	flex-direction: column;
-	align-content: center;
+	gap: 10px;
+	text-align: center;
 }
-footer .foot-icon {
-	align-self: center;
+footer h3 {
+	font-size: 12px;
+	font-weight: 100;
+	color: black;
 }
-p {
+.icons img {
+	height: 34px;
+}
+.icons a {
+	margin-right: 10px;
+}
+.icons {
 	align-self: center;
 }

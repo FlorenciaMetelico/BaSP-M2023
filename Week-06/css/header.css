@@ -1,18 +1,16 @@
-header {
+.main-header {
 	height: 60px;
-	background: #373867;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0px 11px;
 }
-header h1 {
-	padding: 0 7px 0 0;
-	margin-top: 9px;
-	margin-bottom: 9px;
+.main-header > img {
+	filter: brightness(0%) invert(100%);
+	width: 44px;
+	height: 37px;
+}
+.main-header > h1 {
+	width: 199px;
 	height: 42px;
-	float: right;
-	font-family: "Inria Sans";
-	font-style: normal;
-	font-weight: 700;
-	font-size: 35px;
-	line-height: 42px;
-	text-align: center;
-	color: #f0f0f0;
 }
